@@ -1,0 +1,23 @@
+{
+  "name": "week-09-bootstrap",
+  "version": "1.0.0",
+  "description": "##Week 9 Assignment details - Create a website using HTML and Boootstrap only.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caroleatierney/Week9WebsiteWithBootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caroleatierney/Week9WebsiteWithBootstrap/issues"
+  },
+  "homepage": "https://github.com/caroleatierney/Week9WebsiteWithBootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "jquery": "^3.7.0"
+  }
+}
