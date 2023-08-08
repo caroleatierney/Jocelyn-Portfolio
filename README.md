@@ -4,7 +4,7 @@
 - Create a website using HTML and Boootstrap only.
 
 - Must include
-    - .gitignore file
+    - .gitignore file with node_modules/ in it so it doesn't go to github repository
     - package.json
     - comments
     - at least two pages
@@ -26,7 +26,17 @@
         - <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
         - <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
+
 - npm init (creates package.json file)
 - npm install bootstrap
 
+# HTTP Web Server
+### In terminal, in project directory, type: -http-server to start the local server
+### In browser, I typed localhost:8080
+### Use "ctrl c" to quit
+
+# Notes
+I accidentally sent up the node_modules folder and used this to remove them from github:
+- git rm -r --cached node_modules;
+- git commit -m "Removed Node Modules"
+- git push
