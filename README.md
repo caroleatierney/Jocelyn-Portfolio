@@ -31,9 +31,12 @@
 - npm install bootstrap
 
 # HTTP Web Server
-### In terminal, in project directory, type: -http-server to start the local server
+### In terminal, in project directory, type: http-server to start the local server
 ### In browser, I typed localhost:8080
 ### Use "ctrl c" to quit
+
+## Using FontAwesome
+- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 # Notes
 I accidentally sent up the node_modules folder and used this to remove them from github:
