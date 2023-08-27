@@ -1,5 +1,3 @@
-<!-- I uses the starter template from bootstrap -->
-
 <!doctype html>
 <html lang="en">
 
@@ -9,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
 
     <title>Jocelyn Tierney - Contact Me</title>
 </head>
@@ -35,29 +35,29 @@
     <div class="container">
         <div class="row">
             <div class="col-8 pt-5" style="color:#b4c5e4">
-                <form>
+                <!-- <form method = "post" action="contact.php">
                     <div class="form-group">
                         <div class="row">
                             <div class="col-6">
                                 <label for="firstName">First Name</label>
-                                <input type="first" class="form-control" id="firstName" aria-describedby="First Name">
+                                <input type="text" class="form-control" id="firstName" aria-describedby="First Name">
                             </div>
                             <div class="col-6">
-                                <label for="firstName">Last Name</label>
-                                <input type="first" class="form-control" id="lastName" aria-describedby="First Name">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" aria-describedby="First Name">
                             </div>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label for="companyName">Company Name</label>
-                        <input type="companyName" class="form-control" id="companyName" aria-describedby="Company Name">
+                        <input type="text" class="form-control" id="companyName" aria-describedby="Company Name">
 
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="Your Email Adress" aria-describedby="Email Adress">
 
                         <label for="Select">Select subject of contact request</label>
-                        <select class="form-control" id="select">
+                        <select class="form-control" id="message">
                             <option>Job Application Response</option>
                             <option>Job Offer</option>
                             <option>Artwork Inquiry</option>
@@ -69,7 +69,30 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary">Submit</button>
+                </form> -->
+
+                <!-- Sample HTML Form -->
+                <form method="post" action="send-email.php">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="First Name" required>
+
+
+                    <label for="subject">Last Name</label>
+                    <input type="text" name="lastName" id="Last Name" required>
+
+
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="Subject" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required></textarea>
+
+                    <button>Send</button>
                 </form>
+                
             </div>
 
             <div class="col-4 text-center" style ="color:#b4c5e4">
