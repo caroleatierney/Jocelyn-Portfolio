@@ -43,3 +43,9 @@ I accidentally sent up the node_modules folder and used this to remove them from
 - git rm -r --cached node_modules;
 - git commit -m "Removed Node Modules"
 - git push
+
+
+# To do:
+- submit for contact - add js script in html
+- Nana's sign
+- search for other art work
