@@ -46,6 +46,16 @@ I accidentally sent up the node_modules folder and used this to remove them from
 
 
 # To do:
+
+- to send an email referenced
+https://code-boxx.com/send-email-php/
+https://code-boxx.com/fix-php-mail-not-working/
+
+duswgkraerhzgdsj
+
+
 - submit for contact - add js script in html
 - Nana's sign
 - search for other art work
+
+
