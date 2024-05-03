@@ -34,28 +34,21 @@
 ### In terminal, in project directory, type: http-server to start the local server
 ### In browser, I typed localhost:8080
 ### Use "ctrl c" to quit
+## If this stops working re-run this command to install the server again:
+### npm install -g http-server
 
 ## Using FontAwesome
 - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-# Notes
-I accidentally sent up the node_modules folder and used this to remove them from github:
-- git rm -r --cached node_modules;
-- git commit -m "Removed Node Modules"
-- git push
-
-
 # To do:
 
-- to send an email referenced
-https://code-boxx.com/send-email-php/
-https://code-boxx.com/fix-php-mail-not-working/
 
-duswgkraerhzgdsj
-
-
-- submit for contact - add js script in html
 - Nana's sign
 - search for other art work
 
+- Sal's sign
+
+- 
+
+- Add email changes
 
